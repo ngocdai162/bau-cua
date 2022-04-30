@@ -7,14 +7,14 @@ const h1_2 = document.querySelector("#h1-2")
 const startBtn = document.querySelector(".container-btn button")
 
 h1_1.classList.add("noneBlock")
-imgSrc[0] ="/assets/img/bau.png";
-imgSrc[1] ="/assets/img/cua.png";
-imgSrc[2] ="/assets/img/tom.jpg";
-imgSrc[3] ="/assets/img/ca.png";
-imgSrc[4] ="/assets/img/ga.png";
-imgSrc[5] ="/assets/img/nai.png";
+imgSrc[0] ="./assets/img/bau.png";
+imgSrc[1] ="./assets/img/cua.png";
+imgSrc[2] ="./assets/img/tom.jpg";
+imgSrc[3] ="./assets/img/ca.png";
+imgSrc[4] ="./assets/img/ga.png";
+imgSrc[5] ="./assets/img/nai.png";
 for(let i = 0; i <imgBlock.length ; i++){
-    imgBlock[i].src = "/assets/img/tien.png"
+    imgBlock[i].src = "./assets/img/tien.png"
 }
 var randomNumber= [];
 const randomImg = () =>{
